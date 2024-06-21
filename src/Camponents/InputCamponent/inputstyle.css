@@ -1,0 +1,24 @@
+.input-group {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+   
+   
+}
+
+.input-group input {
+    padding: .5rem;
+    border-radius: 17px;
+    background-color: transparent;
+    color: white;
+    border: rgb(255, 255, 255 , .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    outline: none;
+   
+  
+}
+.input-group input::placeholder {
+    color: white;
+}
+
